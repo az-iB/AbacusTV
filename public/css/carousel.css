@@ -1,0 +1,35 @@
+ 
+.music-coverflow{
+	width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#preview {
+	padding-top: 15%;
+}
+#coverflow  {
+	height:		300px !important;
+}
+#coverflow .cover {
+	cursor:		pointer;
+	width:		320px;
+	height:		240px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.8;
+	/*box-shadow:	0 0 4em 1em white;*/
+}
+
+#coverflow .cover.current{
+	 
+    -webkit-transition: height 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out;
+    -o-transition: height 1s ease-in-out;
+    transition: height 1s ease-in-out;
+
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+	 opacity: 1;
+    height: 280px
+}

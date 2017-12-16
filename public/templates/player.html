@@ -1,0 +1,42 @@
+ <embed 
+        type="application/x-vlc-plugin" 
+        pluginspage="http://www.videolan.org" 
+        version="VideoLAN.VLCPlugin.2"
+        windowless="true"
+        width="100%"
+        height="100%"
+        autoplay="yes"
+        enablejavascript="true"
+        target="<%= channel.attributes.link %>"
+        id="vlc_player">
+    </embed>
+
+<!-- 
+<embed
+    id="tv"
+    name="tv"
+    type="application/x-vlc-plugin"
+    pluginspage="http://www.videolan.org" version="VideoLAN.VLCPlugin.2"
+    width=640 height=480
+    autoplay="yes"
+    enablejavascript="true"
+    target="udp://@238.25.0.1:10001"
+    align=center />
+<script type="text/javascript">
+ var vlc = document.getElementById("tv");
+     vlc.playlist.add("udp://@238.255.0.1:10001");
+     vlc.playlist.add("udp://@238.255.0.2:10001");
+     vlc.playlist.add("udp://@238.255.0.3:10001");
+     vlc.playlist.add("udp://@238.255.0.4:10001");
+</script>
+<div class="controls">
+<a href="javascript:;" onclick='vlc.playlist.play();'>Show</a>
+<a href="javascript:;" onclick='vlc.playlist.stop();'>Stop</a>
+<a href="javascript:;" onclick='vlc.playlist.pause();'>Pause</a>
+</div>
+<div class="channels">
+<a href="#"  onclick="iptv.load('1'); return false;"><img src="img/ico1.png" alt="TV channel name1" /></a>
+<a href="#"  onclick="iptv.load('2'); return false;"><img src="img/ico2.png" alt="TV channel name2" /></a>
+<a href="#"  onclick="iptv.load('3'); return false;"><img src="img/ico3.png" alt="TV channel name3" /></a>
+<a href="#"  onclick="iptv.load('4'); return false;"><img src="img/ico4.png" alt="TV channel name4" /></a>
+</div> -->

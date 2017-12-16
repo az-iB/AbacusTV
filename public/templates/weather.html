@@ -1,0 +1,12 @@
+<ul  class="weather">
+	<% _.each(forecasts, function(forecast) { %>
+		<li>
+			<p class="icon"><%= forecast.attributes.icon %></p>
+			<p class="temp">
+				<span class="low"><%= forecast.attributes.low %></span> - <span class="high"><%= forecast.attributes.high %></span>
+			</p>	
+			<p class="day"><%= forecast.attributes.day %></p>	
+		</li>
+	<% }); %>
+ 
+</ul>

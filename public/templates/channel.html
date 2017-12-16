@@ -1,0 +1,15 @@
+<div class="chanel-list">
+	 
+	<!-- <span class="title-box"><h2>All <a href="@">Channels</a></h2></span> -->
+	
+	<ul>
+		 
+	<% _.each(chanels, function(chanel) { %>
+		<li class="single-chanel" id="<%= chanel.attributes.id %>">
+			<img class="icon" src="images/icon/<%= chanel.attributes.icon %>.png"/>
+			<span class="low"><%= chanel.attributes.name %></span>
+		</li>
+	<% }); %>
+	</ul>
+	 
+</div>

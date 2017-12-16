@@ -1,0 +1,13 @@
+<div class="chanel-list">
+
+	<section class="grid-wrap">
+		<ul class="grid swipe-right" id="grid">
+			 
+			<% _.each(chanels, function(chanel) { %>
+				<li id="<%= chanel.attributes.id %>" class="single-chanel"><a href="#"><img src="images/dummy.png" alt="dummy"><h3><%= chanel.attributes.name %></h3></a></li>
+			<% }); %>
+		 
+		</ul>
+	</section>
+
+</div>

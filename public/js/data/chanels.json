@@ -1,0 +1,107 @@
+[ 
+	{
+		"id":"c1",
+		"name":"Offical Olympic Channel",
+		"icon":"c1",
+		"type":"sport",
+		"link":"http://clientportalpro.com:2500/live/VE5DWv4Ait/7KHLqRRZ9E/9266.ts"
+	},
+	{
+		"id":"c2",
+		"name":"BT SPORTS 3 HD",
+		"icon":"c2",
+		"type":"sport",
+		"link":"http://81.230.200.187:1967/live/mMdwpJIagX/WagOqNXDDX/259.ts"
+	},
+	{
+		"id":"c3",
+		"name":"BBC World News",
+		"icon":"c3",
+		"type":"news",
+		"link":"http://gameserver5.streamiptv.online/live/Prov21/NxJRmIhYi7/4332.ts"
+	},
+	{
+		"id":"c4",
+		"name":"BBC ALBA",
+		"icon":"c4",
+		"type":"normal",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/1080.ts"
+	},
+	{
+		"id":"c5",
+		"name":"VICELAND",
+		"icon":"c5",
+		"type":"normal",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/8364.ts"
+	},
+	{
+		"id":"c6",
+		"name":"BBC 2 SCOTLAND",
+		"icon":"c6",
+		"type":"news",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/1076.ts"
+	},
+	{
+		"id":"c7",
+		"name":"BBC 4 HD",
+		"icon":"c7",
+		"type":"normal",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/129.ts"
+	},
+	{
+		"id":"c8",
+		"name":"ITV 1 FHD",
+		"icon":"c8",
+		"type":"news",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/8770.ts"
+	},
+	{
+		"id":"c9",
+		"name":"CHANNEL 4 FHD",
+		"type":"movis",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/8774.ts"
+	},
+	{
+		"id":"c10",
+		"name":"SKY NEWS HD",
+		"icon":"c10",
+		"type":"news",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/493.ts"
+	},
+	{
+		"id":"c11",
+		"name":"WATCH",
+		"type":"kids",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/160.ts"
+	},
+	{
+		"id":"c12",
+		"name":"DISCOVERY SHED",
+		"icon":"c12",
+		"type":"normal",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/843.ts"
+	},
+	{
+		"id":"c13",
+		"name":"DISCOVERY HISTORY",
+		"icon":"c13",
+		"type":"normal",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/7496.ts"
+	},
+	{
+		"id":"c14",
+		"name":"CARTOON NETWORK",
+		"icon":"c14",
+		"type":"kids",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/2063.ts"
+	},
+	{
+		"id":"c15",
+		"name":"MTV Dance SD",
+		"icon":"c15",
+		"type":"music",
+		"link":"http://151.80.97.110:25461/live/daniel/daniel/1094.ts"
+	}
+
+	 
+]
